@@ -497,6 +497,7 @@ header {
   }
   .main__education-info {
     padding-top: 24px;
+    flex-direction: column;
   }
   .main__skills {
     padding-left: 30px;
