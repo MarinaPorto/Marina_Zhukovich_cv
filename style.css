@@ -473,7 +473,7 @@ header {
 
 @media (max-width: 400px) {
   .container {
-    width: 400px;
+    width: 370px;
   }
 
   .header__info {
@@ -516,7 +516,7 @@ header {
 
 @media (max-width: 380px) {
   .container {
-    width: 380px;
+    width: 360px;
   }
 
   .header__info {
@@ -530,6 +530,6 @@ header {
 
 @media (max-width: 360px) {
   .container {
-    max-width: 360px;
+    max-width: 350px;
   }
 }
