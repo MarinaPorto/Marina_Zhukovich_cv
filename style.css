@@ -479,26 +479,6 @@ header {
   .header__info {
     flex-direction: column;
   }
-}
-
-@media (max-width: 380px) {
-  .container {
-    width: 380px;
-  }
-
-  .header__info {
-    flex-direction: column;
-  }
-
-  .main__education-info {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 360px) {
-  .container {
-    max-width: 360px;
-  }
 
   .header__photo-box {
     height: 280px;
@@ -531,5 +511,25 @@ header {
   }
   .main__skills-info-items {
     text-align: left;
+  }
+}
+
+@media (max-width: 380px) {
+  .container {
+    width: 380px;
+  }
+
+  .header__info {
+    flex-direction: column;
+  }
+
+  .main__education-info {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    max-width: 360px;
   }
 }
