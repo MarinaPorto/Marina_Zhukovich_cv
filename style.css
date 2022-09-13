@@ -183,14 +183,24 @@ header {
   top: 3px;
 }
 
-.main_projects-box {
+.main__subtitle-category {
+  color: #000;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.project-description:hover {
+  color: #194061;
+}
+
+.projects-box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .main_projects-box-item {
   margin-bottom: 40px;
+  margin-right: 20px;
   position: relative;
 }
 
@@ -505,6 +515,9 @@ header {
   }
   .main-info {
     text-align: center;
+  }
+  .projects-box {
+    justify-content: center;
   }
   .main__education-info-details {
     margin-bottom: 36px;
