@@ -446,6 +446,14 @@ header {
     margin-top: 16px;
     margin-bottom: 16px;
   }
+
+  .main_projects-box-item {
+    margin-right: 16px;
+  }
+
+  .projects-box {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 600px) {
@@ -539,6 +547,10 @@ header {
 
   .main__education-info {
     flex-direction: column;
+  }
+
+  .main_projects-box-item {
+    margin-right: 0px;
   }
 }
 
