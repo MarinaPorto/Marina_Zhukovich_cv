@@ -581,12 +581,18 @@ header {
   header .header__subtitle-contacts {
     margin-top: 16px;
     margin-bottom: 16px;
-  }
+      }
   .main_projects-box-item {
     margin: 0 auto;
   }
   .projects-box {
     justify-content: center;
+  }
+  .header__subtitle-position {
+    font-size: 18px;
+  }
+  .header__subtitle-city {
+    font-size: 16px;
   }
 }
 
