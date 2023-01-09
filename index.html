@@ -17,41 +17,76 @@
 
 <body>
   <div class="container">
-    <header>
-      <div class="header__photo-box">
-        <img src="./img/MarynaZhukovich.jpeg" class="main-photo" alt="Photo">
-      </div>
-      <div class="header__info">
-        <div class="header__info-main">
-          <h1 class="header__title">Maryna Zhukovich</h1>
-          <h2 class="header__subtitle">Frontend developer</h2>
-          <h4 class="header__subtitle-city">Belarus, Minsk</h4>
+    <header class="header">
+      <div class="header__photo">
+        <div class="div">
+          <div class="btns-lang">
+            <div class="language-switcher-en btns-lang-choice">en</div>
+            <div>/</div>
+            <div class="language-switcher-ru btns-lang-choice btn-active">ru</div>
+          </div>
+          <img src="./img/MarynaZhukovich.jpeg" class="main-photo" alt="Photo">
         </div>
-        <div class="contact-info">
-          <h4 class="header__subtitle-contacts">Contacts</h4>
-          <p class="contact-info-title">Phone: <a href="tel:+37529180579" class="contact-info-link" target="_blank">+375
-              29
-              180-57-94</a> </p>
-          <p class="contact-info-title">Email: <a href="mailto:marina.x.sea@gmail.com" class="contact-info-link"
-              target="_blank">marina.x.sea@gmail.com</a></p>
-          <p class="contact-info-title">GitHub: <a href="https://github.com/MarinaPorto" class="contact-info-link"
-              target="_blank">https://github.com/MarinaPorto</a></p>
-          <p class="contact-info-title">Blog: instagram <a href="https://www.instagram.com/marina_web_way/"
-              class="contact-info-link" target="_blank"> @marina_web_way</a></p>
+        <div class="header__about">
+          <div class="header__info-main">
+            <h1 class="header__title" data-translate="hero-title"></h1>
+            <h2 class="header__subtitle" data-translate="position"></h2>
+            <h4 class="header__subtitle-city" data-translate="location"></h4>
+          </div>
+          <div class="contact-info">
+            <h4 class="header__subtitle-contacts" data-translate="contacts"></h4>
+            <p class="contact-info-title"><img class="contacts__icon" src="img/phone.png" alt="phone icon"><a
+                href="tel:+37529180579" class="contact-info-link" target="_blank">+375
+                29
+                180-57-94</a> </p>
+            <p class="contact-info-title"><img class="contacts__icon" src="img/mail.png" alt="email icon"><a
+                href="mailto:marina.x.sea@gmail.com" class="contact-info-link"
+                target="_blank">marina.x.sea@gmail.com</a>
+            </p>
+            <p class="contact-info-title"><img class="contacts__icon" src="img/tg.png" alt="telegram icon"><a
+                href="https://t.me/Marina_Zhukovich" class="contact-info-link"
+                target="_blank">@Marina_Zhukovich</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="header__main-info">
+        <div class="header__info-name">
+          <h1 class="header__title" data-translate="hero-title"></h1>
+          <h2 class="header__subtitle" data-translate="position"></h2>
+          <h4 class="header__subtitle-city" data-translate="location"></h4>
+        </div>
+        <div class="header__info-experience">
+          <h4 class="main__subtitle-info title-margin" data-translate="experience"></h4>
+          <div class="speciality-info">
+            <p class="speciality" data-translate="speciality"></p>
+            <p data-translate="exp-mtc"> </p>
+          </div>
+          <p class="text-padding speciality" data-translate="responsibilities"></p>
+          <ul class="responsibilities-items">
+            <li class="responsibilities-item" data-translate="responsibilities-item-1"> </li>
+            <li class="responsibilities-item" data-translate="responsibilities-item-2"></li>
+            <li class="responsibilities-item" data-translate="responsibilities-item-3"></li>
+          </ul>
+          <div class="speciality-info">
+            <p class="speciality" data-translate="tech-stack"></p>
+            <p>WordPress · HTML · CSS · JavaScript · Node.JS · MySQL </p>
+          </div>
+          <p data-translate="exp-sc"></p>
         </div>
       </div>
     </header>
     <main>
-      <div class="main-info">
+      <section class="main-info">
         <div class="main__education-info">
           <div>
-            <h4 class="main__subtitle-info">Languages</h4>
-            <p class="main__education-info-item">English: B1</p>
-            <p class="main__education-info-item">Russian: native</p>
-            <p class="main__education-info-item">Belarusian: native</p>
+            <h4 class="main__subtitle-info subtitle-lang" data-translate="languages"></h4>
+            <p class="main__education-info-item" data-translate="lang-eng"></p>
+            <p class="main__education-info-item" data-translate="lang-ru"></p>
+            <p class="main__education-info-item" data-translate="lang-bel"></p>
           </div>
           <div class="education-block-full">
-            <h4 class="main__subtitle-info main__subtitle">Education</h4>
+            <h4 class="main__subtitle-info main__subtitle" data-translate="education"></h4>
             <ul class="main__education-info-details">
               <li class="main__education-info-details-item">
                 <p>01.2022 – 06.2022</p>
@@ -69,88 +104,122 @@
                 <p>React Developer course</p>
               </li>
               <li class="main__education-info-details-item">
-                <p>04.2015 – 05.2015</p>
-                <p>Academy BELHARD</p>
-                <p>Internet marketing</p>
-              </li>
-              <li class="main__education-info-details-item">
-                <p>01.2015 – 03.2015</p>
-                <p>Academy BELHARD</p>
-                <p>Web programming</p>
-              </li>
-              <li class="main__education-info-details-item">
                 <p>09.2008 – 06.2013 </p>
-                <p>Private Institute of Management and Business</p>
-                <p>Economist-manager</p>
+                <p data-translate="education-inst"></p>
+                <p data-translate="education-inst-spec"></p>
               </li>
               <li class="main__education-info-details-item">
                 <p>09.2005 – 06.2008 </p>
-                <p>The branch of BSEU" Minsk Trade College"</p>
-                <p>Accounting and audit</p>
+                <p data-translate="education-college"></p>
+                <p data-translate="education-college-spec"></p>
               </li>
             </ul>
           </div>
         </div>
         <div class="main__general-info">
-          <h4 class="main__subtitle-info">Experience</h4>
-          <p>03.2022 – present The branch of BSEU" Minsk Trade College" – software engineer. </p>
-          <p>06.2008 – 10.2021 UE “Components and systems” – accountant. </p>
-          <h4 class="main__subtitle-info main__subtitle">Skills</h4>
-          <div class="main__skills">
-            <ul class="main__skills-info-items">
-              <li class="main__skills-info-item">HTML5 (БЭМ)</li>
-              <li class="main__skills-info-item">CSS3 (SCSS, Bootstrap)</li>
-              <li class="main__skills-info-item">JavaScript (ES5/ES6)</li>
-              <li class="main__skills-info-item">React</li>
-              <li class="main__skills-info-item">Redux</li>
-            </ul>
-            <ul class="main__skills-info-items">
-              <li class="main__skills-info-item">Node.js</li>
-              <li class="main__skills-info-item">WordPress</li>
-              <li class="main__skills-info-item">Git</li>
-              <li class="main__skills-info-item">Figma</li>
-              <li class="main__skills-info-item">Adobe Photoshop</li>
-            </ul>
+          <div class="header__info-experience">
+            <h4 class="main__subtitle-info main__subtitle" data-translate="skills"></h4>
+            <div class="main__skills">
+              <ul class="main__skills-info-items">
+                <li class="main__skills-info-item">HTML5 (БЭМ)</li>
+                <li class="main__skills-info-item">CSS3 (SCSS, Bootstrap)</li>
+                <li class="main__skills-info-item">JavaScript (ES5/ES6)</li>
+                <li class="main__skills-info-item">React</li>
+                <li class="main__skills-info-item">Redux</li>
+              </ul>
+              <ul class="main__skills-info-items">
+                <li class="main__skills-info-item">Node.js</li>
+                <li class="main__skills-info-item">WordPress</li>
+                <li class="main__skills-info-item">Git</li>
+                <li class="main__skills-info-item">Figma</li>
+                <li class="main__skills-info-item">Adobe Photoshop</li>
+              </ul>
+            </div>
           </div>
-          <h4 class="main__subtitle-info main__subtitle">Projects:</h4>
+          <h4 class="main__subtitle-info main__subtitle" data-translate="projects"></h4>
           <div class="main_projects-box">
             <h3 class="main__subtitle-info main__subtitle main__subtitle-category">React</h3>
             <div class="projects-box--react projects-box">
-              <div class="main_projects-box-item">
-                <a href="https://marinaporto.github.io/training-shop/" class="project-link" target="_blank">
-                  <img src="./img//projects/shop-preview.jpg" alt="shop-preview">
-                  <div class="main_projects-box-item-description">
-                    <p class="project-link-title">Online store</p>
-                    <p>React, Redux, JS, CSS, HTML</p>
-                  </div>
-                  <p class="project-description">Online store</p>
-                </a>
+              <div class="project-item">
+                <div class="main_projects-box-item">
+                  <a href="https://marinaporto.github.io/training-shop/" class="project-link" target="_blank">
+                    <img src="./img//projects/shop-preview.jpg" alt="shop-preview">
+                    <div class="main_projects-box-item-description">
+                      <p class="project-link-title">Online store</p>
+                      <p>React, Redux, JS, CSS, HTML</p>
+                    </div>
+                    <p class="project-description" data-translate="online-store">Online store</p>
+                  </a>
+                </div>
+                <div class="project-item__description">
+                  <ul class="project-item-responsibiliti">
+                    <li class="responsibiliti-description" data-translate="store-task-1">
+                    </li>
+                    <li class="responsibiliti-description" data-translate="store-task-2">
+                    </li>
+                    <li class="responsibiliti-description" data-translate="store-task-3"></li>
+                    <li class="responsibiliti-description" data-translate="store-task-4"></li>
+                    <li class="responsibiliti-description" data-translate="store-task-5"></li>
+                    <li class="responsibiliti-description" data-translate="store-task-6">
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <div class="main_projects-box-item">
-                <a href="https://elastic-murdock-5fed6d.netlify.app/" class="project-link" target="_blank">
-                  <img src="./img//projects/todolist-preview.jpg" alt="todolist-preview">
-                  <div class="main_projects-box-item-description">
-                    <p class="project-link-title">TODO list</p>
-                    <p>React, JS, CSS, HTML</p>
-                  </div>
-                  <p class="project-description">TODO list</p>
-                </a>
+              <div class="project-item">
+                <div class="main_projects-box-item">
+                  <a href="https://elastic-murdock-5fed6d.netlify.app/" class="project-link" target="_blank">
+                    <img src="./img//projects/todolist-preview.jpg" alt="todolist-preview">
+                    <div class="main_projects-box-item-description">
+                      <p class="project-link-title">TODO list</p>
+                      <p>React, JS, CSS, HTML</p>
+                    </div>
+                    <p class="project-description" data-translate="todo-list">TODO list</p>
+                  </a>
+                </div>
+                <div class="project-item__description">
+                  <ul class="project-item-responsibiliti">
+                    <li class="responsibiliti-description" data-translate="todo-task-1"></li>
+                    <li class="responsibiliti-description" data-translate="todo-task-2"></li>
+                    <li class="responsibiliti-description" data-translate="todo-task-3"></li>
+                    <li class="responsibiliti-description" data-translate="todo-task-4"></li>
+                    <li class="responsibiliti-description" data-translate="todo-task-5"></li>
+                  </ul>
+                </div>
               </div>
             </div>
             <h3 class="main__subtitle-info main__subtitle main__subtitle-category">WordPress</h3>
             <div class="projects-box--wp projects-box">
-              <div class="main_projects-box-item">
-                <a href="https://bseumtc.by" class="project-link" target="_blank">
-                  <img src="./img//projects/bseumtc-preview.jpg" alt="bseumtc-preview">
-                  <div class="main_projects-box-item-description">
-                    <p class="project-link-title">Official college website</p>
-                    <p>WordPress, JS, Node.js, CSS, HTML</p>
-                  </div>
-                  <p class="project-description">Official college website</p>
-                </a>
+              <div class="project-item">
+                <div class="main_projects-box-item">
+                  <a href="https://bseumtc.by" class="project-link" target="_blank">
+                    <img src="./img//projects/bseumtc-preview.jpg" alt="bseumtc-preview">
+                    <div class="main_projects-box-item-description">
+                      <p class="project-link-title">Official college website</p>
+                      <p>WordPress, JS, Node.js, CSS, HTML</p>
+                    </div>
+                    <p class="project-description" data-translate="college"></p>
+                  </a>
+                </div>
+                <div class="project-item__description">
+                  <ul class="project-item-responsibiliti">
+                    <li class="responsibiliti-description" data-translate="college-task-1"></li>
+                    <li class="responsibiliti-description" data-translate="college-task-2"></li>
+                    <li class="responsibiliti-description" data-translate="college-task-3"></li>
+                    <li class="responsibiliti-description" data-translate="college-task-4"></li>
+                    <li class="responsibiliti-description" data-translate="college-task-5"></li>
+                    <li class="responsibiliti-description" data-translate="college-task-6"></li>
+                    <li class="responsibiliti-description" data-translate="college-task-7"></li>
+                  </ul>
+                </div>
               </div>
             </div>
             <h3 class="main__subtitle-info main__subtitle main__subtitle-category">JS, CSS, HTML</h3>
+            <div class="project-item__description">
+              <ul class="project-item-responsibiliti">
+                <li class="responsibiliti-description" data-translate="js-task-1"></li>
+                <li class="responsibiliti-description" data-translate="js-task-2"></li>
+              </ul>
+            </div>
             <div class="projects-box--js projects-box">
               <div class="main_projects-box-item">
                 <a href="https://rolling-scopes-school.github.io/marinaporto-JSFEPRESCHOOL/portfolio-1/"
@@ -160,7 +229,7 @@
                     <p class="project-link-title">Portfolio website</p>
                     <p>JS, CSS, HTML</p>
                   </div>
-                  <p class="project-description">Portfolio website</p>
+                  <p class="project-description" data-translate="portfolio-website"></p>
                 </a>
               </div>
               <div class="main_projects-box-item">
@@ -170,7 +239,7 @@
                     <p class="project-link-title">Movie gallery</p>
                     <p>JS, CSS, HTML</p>
                   </div>
-                  <p class="project-description">Movie gallery</p>
+                  <p class="project-description" data-translate="movie-gallery"></p>
                 </a>
               </div>
               <div class="main_projects-box-item">
@@ -180,7 +249,7 @@
                     <p class="project-link-title">Animal shelter website</p>
                     <p>JS, jQuery, CSS, HTML</p>
                   </div>
-                  <p class="project-description">Animal shelter website</p>
+                  <p class="project-description" data-translate="animal-shelter"></p>
                 </a>
               </div>
               <div class="main_projects-box-item">
@@ -190,18 +259,52 @@
                     <p class="project-link-title">'Quotes' cafe website</p>
                     <p>CSS (SCSS), HTML</p>
                   </div>
-                  <p class="project-description">Cafe website</p>
+                  <p class="project-description" data-translate="cafe-website"></p>
                 </a>
               </div>
             </div>
           </div>
         </div>
-      </div>
     </main>
+    <div class="main__education-additional">
+      <div class="lang-bottom">
+        <h4 class="main__subtitle-info subtitle-lang" data-translate="languages"></h4>
+        <p class="main__education-info-item" data-translate="lang-eng"></p>
+        <p class="main__education-info-item" data-translate="lang-ru"></p>
+        <p class="main__education-info-item" data-translate="lang-bel"></p>
+      </div>
+      <div class="education-block-full">
+        <h4 class="main__subtitle-info main__subtitle" data-translate="education"></h4>
+        <ul class="main__education-info-details">
+          <li class="main__education-info-details-item">
+            <p>01.2022 – 06.2022 - The Rolling Scopes School - Frontend Developer course</p>
+          </li>
+          <li class="main__education-info-details-item">
+            <p>01.2022 – 04.2022 - Clevertec - Frontend (React) course</p>
+          </li>
+          <li class="main__education-info-details-item">
+            <p>01.2021 – 07.2021 - Senla - React Developer course</p>
+          </li>
+          <li class="main__education-info-details-item">
+            <p>09.2008 – 06.2013 </p>
+            <p data-translate="education-inst"></p>
+            <p data-translate="education-inst-spec"></p>
+          </li>
+          <li class="main__education-info-details-item">
+            <p>09.2005 – 06.2008 </p>
+            <p data-translate="education-college"></p>
+            <p data-translate="education-college-spec"></p>
+          </li>
+        </ul>
+      </div>
+    </div>
     <footer class="footer">
-      <span> 2022</span>
+      <span> 2023</span>
     </footer>
   </div>
+  </div>
+  </div>
+  <script type="module" src="index.js"></script>
 </body>
 
 </html>
